@@ -1,0 +1,40 @@
+#table{
+    background-color: azure;
+    display: table;
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+.row{
+    display: table-row;
+
+}
+.cell{
+    display: table-cell;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: white;
+}
+.palette_cell{
+    margin-bottom: 15px;
+    width:50px;
+    height: 50px;
+    border: 1px solid;
+    display:inline-block;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+.palette_cell:hover , .cell:hover{
+    cursor: pointer;
+}
